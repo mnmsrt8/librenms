@@ -134,7 +134,7 @@ $config['auth_ldap_cache_ttl'] = 300;
 
 Config option: `active_directory`
 
-This is similar to LDAP Authentication. Install __php_ldap__ for CentOS/RHEL or __php5-ldap__ for Debian/Ubuntu.
+This is similar to LDAP Authentication. Install __php-ldap__ for CentOS/RHEL or __php5-ldap__ for Debian/Ubuntu.
 
 If you have issues with secure LDAP try setting `$config['auth_ad_check_certificates']` to `0`.
 
